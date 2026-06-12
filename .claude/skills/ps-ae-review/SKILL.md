@@ -51,7 +51,7 @@ in the **Output Format** below.
 
 ### `AE_STMT_TYPE` codes
 `P` = PeopleCode · `S` = SQL · `C` = Call Section · `D` = Do Select · `H` = Do When ·
-`W` = Do While · `L` = Log Message.
+`W` = Do While · `N` = Do Until · `M` = Log Message.
 
 ### Action execution order **within a step**
 `Do When` → `Do While` → `Do Select` → `PeopleCode` → `SQL`/`Call Section`/`Log Message`.
