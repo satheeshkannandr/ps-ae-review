@@ -1,0 +1,7 @@
+# Local, machine-specific Claude Code settings (paths, permissions) — do not publish
+.claude/settings.local.json
+
+# Internal AE review outputs — contain real instance data (hostnames, BU codes, logic).
+# Keep these OUT of GitHub. Remove a line if you ever intentionally publish a review.
+*_review.md
+/LN_*/
