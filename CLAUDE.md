@@ -19,3 +19,7 @@ repo, so colleagues who open this project get it automatically and can use it th
   `NLS_DATE_FORMAT = DD-MON-RR`, PeopleSoft **FSCM 9.2 / PeopleTools 8.58**. Other instances may
   differ (tools release, schema, NLS); the `connect` call returns the actual context — rely on that.
 - Tables are owned by `SYSADM`; query them unqualified (the connection user has access).
+- **Server-side logs:** when a failure isn't explained by DB metadata, the actual run logs live on
+  the App Server / Process Scheduler host (Unix), not in the database. How you reach that host
+  (SSH / PuTTY session, etc.) is environment-specific — use your own saved setup; don't hardcode
+  hosts or keys here.

@@ -25,6 +25,10 @@ in the **Output Format** below.
   may differ (tools release, schema, NLS); the `connect` call returns the actual context —
   rely on that rather than assuming these values.
 - Tables are owned by `SYSADM`; query them unqualified (the connection user has access).
+- **Server-side logs (when DB metadata isn't enough):** if a program's own logging is too sparse to
+  explain a failure (see the *Restart safety* / *Loose ends* checks below), the real run logs live on
+  the App Server / Process Scheduler host (Unix), not in the database. Fetch them from that host —
+  the connection method (SSH / PuTTY session, etc.) is environment-specific; don't hardcode hosts or keys.
 
 ## Where the program lives (metadata map)
 
