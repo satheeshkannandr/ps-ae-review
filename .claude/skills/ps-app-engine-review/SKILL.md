@@ -1,5 +1,5 @@
 ---
-name: ps-ae-review
+name: ps-app-engine-review
 description: Review a PeopleSoft Application Engine (AE) program. Use when asked to review, explain, or analyze an App Engine / AE_APPLID (e.g. "Review App Engine AR_AGING and connect to TEST"). Connects to the database, extracts the program straight from PeopleTools metadata tables (no XML export), reassembles SQL + PeopleCode, pulls the referenced App Package / FUNCLIB / named-SQL dependencies, and produces a structured review.
 ---
 

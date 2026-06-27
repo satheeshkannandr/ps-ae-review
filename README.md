@@ -108,8 +108,8 @@ Open this folder in Claude Code and ask (substitute the program id and the datab
 
 For example: *Review App Engine `AR_AGING` and explain what it does. Connect to 'TEST' database*
 
-This runs the **`ps-ae-review`** skill ([.claude/skills/ps-ae-review/SKILL.md](.claude/skills/ps-ae-review/SKILL.md)),
-which Claude auto-invokes on that request — or you can call it explicitly with `/ps-ae-review`.
+This runs the **`ps-app-engine-review`** skill ([.claude/skills/ps-app-engine-review/SKILL.md](.claude/skills/ps-app-engine-review/SKILL.md)),
+which Claude auto-invokes on that request — or you can call it explicitly with `/ps-app-engine-review`.
 It's committed in the repo, so anyone who opens this project gets it automatically.
 
 Claude will (per the skill):
@@ -130,7 +130,7 @@ Claude will (per the skill):
 PeopleCode is stored as **readable plain text** in `PSPCMTXT.PCTEXT` across PeopleTools
 versions (not just compiled bytecode), so the full program — PeopleCode + SQL + flow, **plus the
 App Package / FUNCLIB classes it calls** — can be extracted with SQL queries alone, no XML export
-needed. See the [`ps-ae-review` skill](.claude/skills/ps-ae-review/SKILL.md) for the exact tables,
+needed. See the [`ps-app-engine-review` skill](.claude/skills/ps-app-engine-review/SKILL.md) for the exact tables,
 key schemes (AE *and* referenced-code), queries, and the fallback if a program returns no source.
 
 ## Notes

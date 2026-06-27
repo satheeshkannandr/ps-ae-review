@@ -4,9 +4,9 @@ This folder is a workspace for reviewing PeopleSoft Application Engine (AE) prog
 
 ## The review playbook is a Skill
 The full playbook (metadata map, extraction queries, review checklist, output format) now lives
-in the **`ps-ae-review`** skill at [.claude/skills/ps-ae-review/SKILL.md](.claude/skills/ps-ae-review/SKILL.md).
+in the **`ps-app-engine-review`** skill at [.claude/skills/ps-app-engine-review/SKILL.md](.claude/skills/ps-app-engine-review/SKILL.md).
 It auto-runs when you ask to review an App Engine (e.g. *"Review App Engine `AR_AGING` and
-connect to TEST"*), and you can invoke it directly with `/ps-ae-review`. It's committed in the
+connect to TEST"*), and you can invoke it directly with `/ps-app-engine-review`. It's committed in the
 repo, so colleagues who open this project get it automatically and can use it the same way.
 
 ## Environment (always-true project facts)
